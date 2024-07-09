@@ -31,7 +31,7 @@ class PLC:
             if 'Counter' in self.tags:
                 self.tags['Counter'] += 1
             elif 'Sensor3' in self.tags:
-                self.tags
+                self.tags['Sensor3'] +=3.1416
             time.sleep(1)
             
 
