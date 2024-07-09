@@ -78,6 +78,7 @@ if __name__ == "__main__":
     # Add tags to simulate inputs, outputs, and memory areas
     plc.add_tags("Sensor1", 0)
     plc.add_tags("Sensor2", 0)
+    plc.add_tags("Sensor3", 0)
     plc.add_tags("Counter", 0)
 
     # Start the PLC simulation and GUI
