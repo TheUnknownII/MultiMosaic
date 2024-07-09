@@ -30,7 +30,11 @@ class PLC:
             # Example PLC logic (simple increment of a tag)
             if 'Counter' in self.tags:
                 self.tags['Counter'] += 1
+            elif 'Sensor3' in self.tags:
+                self.tags
             time.sleep(1)
+            
+
 
     def stop(self):
        """Stop the PLC simulation"""
