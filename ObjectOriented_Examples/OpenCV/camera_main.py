@@ -7,7 +7,7 @@ from tkinter import Label
 from PIL import Image, ImageTk
 
 # Initialize the camera
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
 
 # Load the license plate cascade classifier
 plate_cascade = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
